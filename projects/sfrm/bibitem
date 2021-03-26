@@ -1,0 +1,7 @@
+@InProceedings{li2018sfrm,
+author = {Li, Xiu and Li, Hongdong and Joo, Hanbyul and Liu, Yebin and Sheikh, Yaser},
+title = {Structure From Recurrent Motion: From Rigidity to Recurrency},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2018}
+}
