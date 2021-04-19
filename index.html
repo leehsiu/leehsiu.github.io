@@ -5,7 +5,6 @@
 <head>
   <script src="./js/head.js"></script>
   <title>Xiu Li's Personal Webpage</title>
-  <!-- <link rel="stylesheet" href="./css/font.css"> -->
   <link rel="stylesheet" href="./css/main.css">
   <script src="./js/main.js"></script>
   <script src="./js/scroll.js"></script>
@@ -60,14 +59,18 @@
         <div class="text">
           <p align="justify">
             My research interests lie broadly in <b>computer vision</b>,<b>machine learning</b> and <b>computational
-              photography</b> . I'm now particularly focusing on <b>3D vision</b> including performance capture, neural rendering/view
-            synthetis, SfM and scene representation. I also spare some time on low-level vision including deblur, super-resolution, 
-            compressive imaging. The goal of my research is to bridge our real-world perception and the digital world by faithfully 
+              photography</b> . I'm now particularly focusing on <b>3D vision</b> including performance capture, neural
+            rendering/view
+            synthetis, SfM and scene representation. I also spare some time on low-level vision including deblur,
+            super-resolution,
+            compressive imaging. The goal of my research is to bridge our real-world perception and the digital world by
+            faithfully
             capturing, manipulating and presenting our real world computationally.
           </p>
         </div>
       </div>
 
+      <!-- TODO: change this part to JS-based parsing. -->
       <div class="content" style="z-index:1;position:relative">
         <div class="text">
           <h3 style="margin-bottom:.5em">News</h3>
@@ -84,6 +87,8 @@
           </ul>
         </div>
       </div>
+
+      <!-- TODO: change this part to JS-based parsing, use a json file to denote each content-->
       <div class="content anchor" id="publications" data-scroll-id="publications" tabindex="-1" style="outline: none;">
         <div class="text" style="z-index:1;position:relative">
           <h3 style="margin-bottom:0em">
@@ -108,7 +113,7 @@
                 <span class="author"><a>Qionghai Dai</a></span>
               </div>
               <div class="publinks">
-                <span class="tag"><a>preprints</a></span>
+                <span class="tag"><a href="https://arxiv.org/abs/2104.03078">arxiv</a></span>
               </div>
             </div>
           </div>
@@ -188,32 +193,12 @@
                 <span class="venue"><a
                     href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Li_Structure_From_Recurrent_CVPR_2018_paper.pdf">CVPR
                     2018</a></span> /
-                <span class="tag"><a href="https://arxiv.org/abs/1804.06510">Arxiv</a></span> /
+                <span class="tag"><a href="https://arxiv.org/abs/1804.06510">arxiv</a></span> /
                 <span class="tag"><a href="https://www.youtube.com/watch?v=BIQcSz5ttA4">Youtube</a></span>
               </div>
             </div>
           </div>
-          <div class="publication">
-            <div class="img"><img class="img_responsive" src="./img/biodrone.gif"></div>
-            <div class="text">
-              <div class="title"><a>
-                  Biomimetic Design for Unmanned Aerial Vehicle Safe Landing in Hazardous Terrain</a>
-              </div>
-              <div class="authors">
-                <span class="author"><a>Cai Luo</a></span>,
-                <span class="author self"><a href="http://lixiulive.com/">Xiu Li</a></span>,
-                <span class="author"><a>Yipeng Li</a></span>,
-                <span class="author"><a href="http://media.au.tsinghua.edu.cn/index/team/qhdai.html">Qionghai
-                    Dai</a></span>
-              </div>
-              <div class="publinks">
-                <span class="venue"><a href=https://ieeexplore.ieee.org/document/7114323> TMECH 2016</a> </span>
-              </div>
-            </div>
-          </div>
         </div> <!-- pubs -->
-
-
       </div>
       <!--end of publication segment-->
 
@@ -223,12 +208,14 @@
               style="text-decoration: underline; color: rgb(0, 0, 0); font-weight: normal">cv</a>)</h3>
           <ul style="padding-bottom:1em">
             <p>
-              Xiu Li is a Ph.D. student (from Aug. 2015) in the Department of Automation at Tsinghua University,
+              Xiu Li is a Senior Ph.D. student (from Aug. 2015) in the Department of Automation at Tsinghua University,
               advised by Prof.
-              Qionghai Dai, he also works as an intern in MSRA(from Mar. 2021). He was a visiting Research Scholar then Research Associate I in School of Computer
-              Science at Carnegie Mellon University(Sep. 2017 to Aug, 2019), working with Prof.Yaser Sheikh and Prof. Hongdong Li. Before that, Xiu received his B.Eng in
+              Qionghai Dai and a Research Intern in MSRA (from Mar.2021). He was a visiting scholar in School of Computer
+              Science at Carnegie Mellon University from Sep. 2017 to Aug, 2019, working with Prof.Yaser Sheikh and Prof.
+              Hongdong Li. Before that, Xiu received B.E. in
               Department
-              of Automation,Tsinghua University. His research spans from 3D Vision to computational photography. He was with the champion team of 2013 International
+              of Automation,Tsinghua University. His research spans from 3D Vision to computational photography and machine learning. He was
+              with the champion team of 2013 International
               Aerial Robotics Competition.</p>
           </ul>
         </div>
@@ -250,13 +237,11 @@
       </div>
       <!--end of bio segment-->
 
-
     </div>
     <!--end of body container-->
 
-
     <footer>
-      <p>Updated Mar. 20th, 2021</p>
+      <p>Updated April 19th, 2021</p>
     </footer>
   </div>
   <!--end of outer container-->
