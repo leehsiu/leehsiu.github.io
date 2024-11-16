@@ -1,0 +1,151 @@
+{
+  "publications": [
+    {
+      "img": "./img/xportrait2.png",
+      "img_alt": "X-Portrait2",
+      "title": "X-Portrait 2: Highly Expressive Portrait Animation",
+      "authors": [
+        {"name": "Xiaochen Zhao", "is_self": true},
+        {"name": "Hongyi Xu", "is_self": false},
+        {"name": "Guoxian Song", "is_self": false},
+        {"name": "You Xie", "is_self": false},
+        {"name": "Chenxu Zhang", "is_self": false},
+        {"name": "Xiu Li", "is_self": true},
+        {"name": "Linjie Luo", "is_self": false},
+        {"name": "Jinli Suo", "is_self": false},
+        {"name": "Yebin Liu", "is_self": false}
+      ],
+      "links":[
+        {"text": "Project Page", "url": "https://byteaigc.github.io/X-Portrait2/"}
+      ]
+    },
+    {
+      "img": "./img/mmtryon.png",
+      "img_alt": "MMTryon",
+      "title": "MMTryon: Multi-Modal Multi-Reference Control for High-Quality Fashion Generation",
+      "authors": [
+        {"name": "Xujie Zhang*", "is_self": false},
+        {"name": "Ente Lin*", "is_self": false}, 
+        {"name": "Xiu Li", "is_self": true},
+        {"name": "Yuxuan Luo", "is_self": false},
+        {"name": "Michael Kampffmeyer", "is_self": false},
+        {"name": "Xin Dong", "is_self": false},
+        {"name": "Xiaodan Liang", "is_self": false}
+      ],
+      "author_note": "*Interns at Bytedance",
+      "links": [
+        {"text": "Arxiv 2024", "url": "https://arxiv.org/abs/2405.00448"}
+      ]
+    },
+    {
+      "img": "./img/warpdiffusion.png", 
+      "img_alt": "WarpDiffusion",
+      "title": "WarpDiffusion: Efficient Diffusion Model for High-Fidelity Virtual Try-on",
+      "authors": [
+        {"name": "Xujie Zhang*", "is_self": false},
+        {"name": "Xiu Li", "is_self": true},
+        {"name": "Michael Kampffmeyer", "is_self": false},
+        {"name": "Xin Dong", "is_self": false},
+        {"name": "Zhenyu Xie*", "is_self": false},
+        {"name": "Feida Zhu", "is_self": false},
+        {"name": "Haoye Dong", "is_self": false},
+        {"name": "Xiaodan Liang", "is_self": false}
+      ],
+      "author_note": "*Interns at Bytedance",
+      "links": [
+        {"text": "Arxiv 2023", "url": "https://arxiv.org/abs/2312.03667"}
+      ]
+    },
+    {
+      "img": "./img/neuralavatar.gif",
+      "img_alt": "uabc",
+      "title": "Neural Capture of Animatable 3D Human from Monocular Video",
+      "authors": [
+        {"name": "Gusi Te*", "is_self": false},
+        {"name": "Xiu Li*", "is_self": true},
+        {"name": "Xiao Li", "is_self": false},
+        {"name": "Jinglu Wang", "is_self": false},
+        {"name": "Wei Hu", "is_self": false},
+        {"name": "Yan Lu", "is_self": false}
+      ],
+      "author_note": "*Internship at MSRA",
+      "links": [
+        {"text": "ECCV 2022", "url": null},
+        {"text": "arxiv", "url": "https://arxiv.org/abs/2208.08728"}
+      ]
+    },
+    {
+      "img": "./img/nref.gif",
+      "img_alt": "NReF", 
+      "title": "Estimating Neural Reflectance Field from Neural Radiance Field using Tree Structures",
+      "authors": [
+        {"name": "Xiu Li", "is_self": true},
+        {"name": "Xiao Li", "is_self": false},
+        {"name": "Yan Lu", "is_self": false}
+      ],
+      "links": [
+        {"text": "Arxiv 2022", "url": "https://arxiv.org/abs/2210.04217"}
+      ]
+    },
+    {
+      "img": "./img/UABC.png",
+      "img_alt": "uabc",
+      "title": "Universal and Flexible Optical Aberration Correction Using Deep-Prior Based Deconvolution",
+      "authors": [
+        {"name": "Xiu Li", "is_self": true},
+        {"name": "Jinli Suo", "is_self": false},
+        {"name": "Weihang Zhang", "is_self": false},
+        {"name": "Xin Yuan", "is_self": false},
+        {"name": "Qionghai Dai", "is_self": false}
+      ],
+      "links": [
+        {"text": "ICCV 2021", "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Li_Universal_and_Flexible_Optical_Aberration_Correction_Using_Deep-Prior_Based_Deconvolution_ICCV_2021_paper.pdf"},
+        {"text": "arxiv", "url": "https://arxiv.org/abs/2104.03078"}
+      ]
+    },
+    {
+      "img": "./img/4dassociation.jpg",
+      "img_alt": "mmmcap",
+      "title": "4D Association Graph for Realtime Multi-person Motion Capture Using Multiple Video Cameras",
+      "authors": [
+        {"name": "Yuxiang Zhang", "is_self": false},
+        {"name": "Liang An", "is_self": false},
+        {"name": "Tao Yu", "is_self": false},
+        {"name": "Xiu Li", "is_self": true},
+        {"name": "Kun Li", "is_self": false},
+        {"name": "Yebin Liu", "is_self": false}
+      ],
+      "links": [
+        {"text": "CVPR 2020", "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Zhang_4D_Association_Graph_for_Realtime_Multi-Person_Motion_Capture_Using_Multiple_CVPR_2020_paper.html"}
+      ]
+    },
+    {
+      "img": "./img/densecap.gif",
+      "img_alt": "densecap",
+      "title": "Full-body Markless Motion Capture with Full-body Parsing",
+      "authors": [
+        {"name": "Xiu Li", "is_self": true},
+        {"name": "et al", "is_self": false}
+      ],
+      "links": [
+        {"text": "Project@CMU", "url": null}
+      ]
+    },
+    {
+      "img": "./projects/sfrm/sfrm.gif",
+      "img_alt": "sfrm",
+      "title": "Structure from Recurrent Motion:From Rigidity to Recurrency",
+      "authors": [
+        {"name": "Xiu Li", "is_self": true},
+        {"name": "Hongdong Li", "is_self": false},
+        {"name": "Hanbyul Joo", "is_self": false},
+        {"name": "Yebin Liu", "is_self": false},
+        {"name": "Yaser Sheikh", "is_self": false}
+      ],
+      "links": [
+        {"text": "CVPR 2018", "url": "http://openaccess.thecvf.com/content_cvpr_2018/papers/Li_Structure_From_Recurrent_CVPR_2018_paper.pdf"},
+        {"text": "arxiv", "url": "https://arxiv.org/abs/1804.06510"}
+      ]
+    }
+  ]
+}
