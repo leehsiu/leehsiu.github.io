@@ -16,7 +16,8 @@
         {"name": "Yebin Liu", "is_self": false}
       ],
       "links":[
-        {"text": "Project Page", "url": "https://byteaigc.github.io/X-Portrait2/"}
+        {"text": "Project Page", "url": "https://byteaigc.github.io/X-Portrait2/"},
+        {"text": "ICLR 2025", "url": null}
       ]
     },
     {
